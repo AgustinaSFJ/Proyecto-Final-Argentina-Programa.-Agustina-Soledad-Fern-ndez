@@ -20,6 +20,7 @@ main {
     display: grid;
     grid-template-columns: 30% 70%;
     grid-gap: 2rem;
+    filter: drop-shadow(0 0 0.4rem black);
     }
     .personal,
     .skills,
@@ -35,7 +36,7 @@ main {
 
 .left-image {
     position:relative;
-    
+        
  }
 .left-image img{
     width: 63%;
@@ -77,5 +78,35 @@ main {
   }
 
   .centre-image {
-    margin: 2rem;
+    margin: 5rem;
+    }
+
+  button {
+    font-size: 25px;
+    padding: 10px 20px;
+    margin: 80px 150px 150px 140px;
+    background-color: rgba(100, 148, 237, 0.877);
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer
+    transition: .5s
   }
+
+  button:hover {
+    
+    background-color: gray;
+    box-shadow: 0 0 30px black;
+   
+  }
+
+  @media print {
+      body*{
+        visibility: hidden
+      }
+      print area*{
+        visibility: visible
+      }
+

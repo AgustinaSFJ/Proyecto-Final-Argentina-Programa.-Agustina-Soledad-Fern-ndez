@@ -9,16 +9,28 @@
     <title>Resume - Final Project</title>
 </head>
 <body>
+    
+    
+    
     <div class="ags"> <h1>  Agustina Soledad Fernández</h1></div>
-   
+
+
+
    <main>
     <section class="left">
   
+
+        <div class="print area">
+            <div class="header">
+
             <div class="centre-image">
                <img src="https://media.licdn.com/dms/image/D4E03AQG92CQKvoCTDQ/profile-displayphoto-shrink_200_200/0/1671578369154?e=1682553600&v=beta&t=jaHRYI3X6vg2k8oXhLNih_DXHSUehoYogxw_gAVg1IQ" alt="Foto de presentación"> 
             </div>
+                 
+        </div>
+    </div>
             <div class="personal">
-                
+           
                 <ul>
                     <h3>Junior developer </h3>
                     <li><i class="fa fa-map-marker" aria-hidden="true"></i>  Argentina</li>
@@ -28,7 +40,8 @@
                     <li><i class="fa fa-github" aria-hidden="true"></i>  Agustina Soledad Fernandez</li>
                     <li><i class="fa fa-linkedin-square" aria-hidden="true"></i>  Agustina Soledad Fernandez</li>
                 </ul>
-                <hr>
+
+           <hr>
             </div>
             <div class="skills">
                 <h3><i class="fa fa-cogs" aria-hidden="true"></i>  Skills</h3>
@@ -47,6 +60,17 @@
                 <li><p>Italiano</p> <progress max="100" value="40"></progress></li>
                 </ul>
             </div>
+
+            <button>Print resume</button>
+            
+            <script>
+            var btn = document.querySelector ("button")
+            btn.onclick= () =>{
+                window.print();
+            }
+            
+            </script>
+
     </section>
     <section class="right">
         <div class="experience">
@@ -137,16 +161,25 @@
                         
             </ul>
 
-    </section>
-   </main>
-   <footer>
-    <div class="footer">
-    <p>Learn more about me and my projects</p>
-    <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-    <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-    <p>Copyright 2021</p>
-    </footer>
-</body>
-</html>
+        </section>
+    </main>
+
+
+        <footer>
+     <div class="footer">
+     <p>Learn more about me and my projects</p>
+     <a href="https://github.com/AgustinaSFJ"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+     
+     <a href="https://www.linkedin.com/in/agustina-soledad-fern%C3%A1ndez-01ab9b206/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+     <p>Copyright 2021</p>
+     </footer>
+
+    
+
+     <script src="js/function.js"></script>
+
+ </body>
+ </html>
+ 
 
  
