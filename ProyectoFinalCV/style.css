@@ -28,7 +28,7 @@ main {
         line-height: 2;
     }
 
-    .left{
+    .left {
         background-color: rgba(118, 157, 230, 0.582);
     }
 
@@ -50,7 +50,7 @@ main {
     padding: 1rem;
   }
 
-  .experience, .education {
+  .experience, .education, .acknowledgments {
     line-height: 1.5rem;
   }
 
@@ -60,4 +60,15 @@ main {
 
   .education ul {
     margin: 2rem 0;
+  }
+
+  .acknowledgments ul {
+    margin: 2rem 0;
+  }
+
+  .footer, .ags {
+    background-color: rgba(100, 148, 237, 0.685);
+    padding: 2rem 0;
+    text-align: center;
+    line-height: 1.5;
   }
