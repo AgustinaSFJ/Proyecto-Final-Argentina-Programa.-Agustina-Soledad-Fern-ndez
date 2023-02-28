@@ -24,6 +24,7 @@ main {
     .personal,
     .skills,
     .languages{
+        margin: 1rem;
         padding: 0rem;
         line-height: 2;
     }
@@ -34,9 +35,11 @@ main {
 
 .left-image {
     position:relative;
+    
  }
 .left-image img{
     width: 63%;
+    margin: 2rem;
 }
 
  .left-image h2 {
@@ -71,4 +74,8 @@ main {
     padding: 2rem 0;
     text-align: center;
     line-height: 1.5;
+  }
+
+  .centre-image {
+    margin: 2rem;
   }
