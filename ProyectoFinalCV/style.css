@@ -1,31 +1,42 @@
+@import url('https://fonts.googleapis.com/css2? family= Noto+Serif:wght@400;700 & display=swap');
 
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body {
+    background-color: lavender;
+}
+
+ul {
+    list-style: none;
 }
 
 main {
     margin: 1rem;
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 30% 70%;
+    grid-gap: 2rem;
     }
-.personal,
-.skills,
-.languages{
-    padding: 1rem;
-    line-height: 2;
-}
+    .personal,
+    .skills,
+    .languages{
+        padding: 0rem;
+        line-height: 2;
+    }
 
     .left{
-        background-color: rgba(0, 255, 255, 0.315);
+        background-color: rgba(100, 148, 237, 0.582);
     }
 
 .left-image {
     position:relative;
  }
-.left-image {
-    width: 100%;
+.left-image img{
+    width: 63%;
 }
 
  .left-image h2 {
