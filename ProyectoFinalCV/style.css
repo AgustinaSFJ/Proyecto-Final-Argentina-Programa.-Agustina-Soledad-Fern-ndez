@@ -8,7 +8,7 @@ body{
 main {
     margin: 1rem;
     display: grid;
-    grid-template-columns: 33% 1fr;
+    grid-template-columns: 25% 75%;
     }
 .personal,
 .skills,
@@ -18,11 +18,11 @@ main {
 }
 
     .left{
-        background-color: aqua;
+        background-color: rgba(0, 255, 255, 0.315);
     }
 
 .left-image {
-    position:relative
+    position:relative;
  }
 .left-image {
     width: 100%;
